@@ -1,0 +1,25 @@
+{
+  "name": "hello-sanity-sveltekit-finished",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "start": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sanity/client": "^3.3.0",
+    "@sveltejs/adapter-node": "next",
+    "@sveltejs/kit": "next",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "svelte": "^3.46.0"
+  },
+  "keywords": [],
+  "description": ""
+}
